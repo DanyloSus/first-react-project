@@ -1,22 +1,20 @@
 <html>
-    <head>
-        <link rel="stylesheet" src="index.css">
-        <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    </head>
-    <body>
 
-        <div id="root"></div>
+<head>
+    <meta charset="UTF-8" />
+    <title>First Project</title>
+</head>
 
-        <script type="text/babel">
-            function MainContent() {
-                return (
-                    <h1>I'm learning React</h1>
-                );
-            }
-            ReactDOM.render(<MainContent />, document.getElementById("root"));
-        </script>
+<body>
 
-    </body>
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script src="index.js" type="text/babel"></script>
+
+</body>
+
 </html>

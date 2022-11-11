@@ -1,1 +1,3 @@
-ReactDOM.render(<h1>Sus, React!</h1>, document.getElementById("root"));
+'use strict';
+
+ReactDOM.render(<h1>F*ck the sh*t!</h1>, document.getElementById("root"));
